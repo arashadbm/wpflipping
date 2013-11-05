@@ -1,0 +1,53 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="TestWPBase.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:wpflipping="clr-namespace:WPFlipping;assembly=WPFlipping"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <ListBox x:Name="FlipList" CacheMode="BitmapCache" ItemsSource="{Binding Lists}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Margin="12,32" >
+                            <wpflipping:DoubleSidesControl>
+                                <wpflipping:DoubleSidesControl.FrontTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Background="Yellow">
+                                            <TextBlock Text="Over" Foreground="Blue" FontSize="48"/>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </wpflipping:DoubleSidesControl.FrontTemplate>
+                                <wpflipping:DoubleSidesControl.BackTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Background="White">
+                                            <TextBlock Text="Under" Foreground="Blue" FontSize="48"/>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </wpflipping:DoubleSidesControl.BackTemplate>
+                            </wpflipping:DoubleSidesControl>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Grid>
+
+          </Grid>
+
+</phone:PhoneApplicationPage>

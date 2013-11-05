@@ -1,0 +1,44 @@
+﻿<!--
+// (c) Copyright Microsoft Corporation.
+// This source is subject to the Microsoft Public License (Ms-PL).
+// Please see http://go.microsoft.com/fwlink/?LinkID=131993 for details.
+// All other rights reserved.
+-->
+
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:wpflipping="clr-namespace:WPFlipping"
+    >
+
+
+    <Style TargetType="wpflipping:DoubleSidesControl">
+        <Setter Property="Width" Value="420"/>
+        <Setter Property="Height" Value="300"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="wpflipping:DoubleSidesControl">
+                    <Grid x:Name="PlaceHolder" CacheMode="BitmapCache">
+                        <Grid.Projection>
+                            <PlaneProjection x:Name="AnimatedPlaneProjection"  RotationY="0" CenterOfRotationZ="0.5" CenterOfRotationX="0.5" CenterOfRotationY="0.5"/>
+                        </Grid.Projection>
+                        <Grid x:Name="Under" Canvas.ZIndex="0" >
+                            <ContentPresenter ContentTemplate="{TemplateBinding BackTemplate}"/>
+                            <Grid.Projection>
+                                <PlaneProjection  CenterOfRotationZ="0.5" CenterOfRotationX="0.5" CenterOfRotationY="0.5"/>
+                            </Grid.Projection>
+                        </Grid>
+                        <Grid x:Name="Over" Canvas.ZIndex="1" >
+                            <ContentPresenter ContentTemplate="{TemplateBinding FrontTemplate}"  />
+                            <Grid.Projection>
+                                <PlaneProjection  CenterOfRotationZ="0.5" CenterOfRotationX="0.5" CenterOfRotationY="0.5"/>
+                            </Grid.Projection>
+                        </Grid>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

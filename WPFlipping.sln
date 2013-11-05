@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Phone
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFlipping", "WPFlipping\WPFlipping.csproj", "{4D03E885-1070-4F12-A340-20FAE8395115}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFlippingExample", "WPFlippingExample\WPFlippingExample.csproj", "{2F4F7C28-50F5-454D-9936-7167D1F2E2DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D03E885-1070-4F12-A340-20FAE8395115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D03E885-1070-4F12-A340-20FAE8395115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D03E885-1070-4F12-A340-20FAE8395115}.Debug|ARM.ActiveCfg = Debug|ARM
+		{4D03E885-1070-4F12-A340-20FAE8395115}.Debug|ARM.Build.0 = Debug|ARM
+		{4D03E885-1070-4F12-A340-20FAE8395115}.Debug|x86.ActiveCfg = Debug|x86
+		{4D03E885-1070-4F12-A340-20FAE8395115}.Debug|x86.Build.0 = Debug|x86
+		{4D03E885-1070-4F12-A340-20FAE8395115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D03E885-1070-4F12-A340-20FAE8395115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D03E885-1070-4F12-A340-20FAE8395115}.Release|ARM.ActiveCfg = Release|ARM
+		{4D03E885-1070-4F12-A340-20FAE8395115}.Release|ARM.Build.0 = Release|ARM
+		{4D03E885-1070-4F12-A340-20FAE8395115}.Release|x86.ActiveCfg = Release|x86
+		{4D03E885-1070-4F12-A340-20FAE8395115}.Release|x86.Build.0 = Release|x86
+		{2F4F7C28-50F5-454D-9936-7167D1F2E2DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4F7C28-50F5-454D-9936-7167D1F2E2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4F7C28-50F5-454D-9936-7167D1F2E2DE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2F4F7C28-50F5-454D-9936-7167D1F2E2DE}.Debug|ARM.ActiveCfg = Debug|ARM
+		{2F4F7C28-50F5-454D-9936-7167D1F2E2DE}.Debug|ARM.Build.0 = Debug|ARM
+		{2F4F7C28-50F5-454D-9936-7167D1F2E2DE}.Debug|ARM.Deploy.0 = Debug|ARM
+		{2F4F7C28-50F5-454D-9936-7167D1F2E2DE}.Debug|x86.ActiveCfg = Debug|x86
+		{2F4F7C28-50F5-454D-9936-7167D1F2E2DE}.Debug|x86.Build.0 = Debug|x86
+		{2F4F7C28-50F5-454D-9936-7167D1F2E2DE}.Debug|x86.Deploy.0 = Debug|x86
+		{2F4F7C28-50F5-454D-9936-7167D1F2E2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4F7C28-50F5-454D-9936-7167D1F2E2DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F4F7C28-50F5-454D-9936-7167D1F2E2DE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2F4F7C28-50F5-454D-9936-7167D1F2E2DE}.Release|ARM.ActiveCfg = Release|ARM
+		{2F4F7C28-50F5-454D-9936-7167D1F2E2DE}.Release|ARM.Build.0 = Release|ARM
+		{2F4F7C28-50F5-454D-9936-7167D1F2E2DE}.Release|ARM.Deploy.0 = Release|ARM
+		{2F4F7C28-50F5-454D-9936-7167D1F2E2DE}.Release|x86.ActiveCfg = Release|x86
+		{2F4F7C28-50F5-454D-9936-7167D1F2E2DE}.Release|x86.Build.0 = Release|x86
+		{2F4F7C28-50F5-454D-9936-7167D1F2E2DE}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
