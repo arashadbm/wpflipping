@@ -17,7 +17,18 @@ namespace TestWPBase
         {
             InitializeComponent();
 
-            FlipList.ItemsSource = new string[] { "First", "Second", "Third" };
+            List<Item> items = new List<Item>();
+            items.Add(new Item() { Name = "First", ImgSource = "/Assets/ApplicationIcon.png" });
+            items.Add(new Item() { Name = "Second", ImgSource = "/Assets/ApplicationIcon.png" });
+            items.Add(new Item() { Name = "Third", ImgSource = "/Assets/ApplicationIcon.png" });
+
+            FlipList.ItemsSource = items;
         }
+    }
+
+    public class Item
+    {
+        public string Name { get; set; }
+        public string ImgSource { get; set; }
     }
 }

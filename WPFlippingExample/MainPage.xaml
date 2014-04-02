@@ -30,14 +30,14 @@
                                 <wpflipping:DoubleSidesControl.FrontTemplate>
                                     <DataTemplate>
                                         <StackPanel Background="Yellow">
-                                            <TextBlock Text="Over" Foreground="Blue" FontSize="48"/>
+                                            <TextBlock Text="{Binding Name}" Foreground="Blue" FontSize="48"/>
                                         </StackPanel>
                                     </DataTemplate>
                                 </wpflipping:DoubleSidesControl.FrontTemplate>
                                 <wpflipping:DoubleSidesControl.BackTemplate>
                                     <DataTemplate>
-                                        <StackPanel Background="White">
-                                            <TextBlock Text="Under" Foreground="Blue" FontSize="48"/>
+                                        <StackPanel Background="Green">
+                                            <Image Source="{Binding ImgSource}" Height="200" Width="200"/>
                                         </StackPanel>
                                     </DataTemplate>
                                 </wpflipping:DoubleSidesControl.BackTemplate>
@@ -48,6 +48,6 @@
             </ListBox>
         </Grid>
 
-          </Grid>
+    </Grid>
 
 </phone:PhoneApplicationPage>

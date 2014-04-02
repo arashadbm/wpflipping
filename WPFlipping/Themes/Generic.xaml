@@ -25,13 +25,13 @@
                             <PlaneProjection x:Name="AnimatedPlaneProjection"  RotationY="0" CenterOfRotationZ="0.5" CenterOfRotationX="0.5" CenterOfRotationY="0.5"/>
                         </Grid.Projection>
                         <Grid x:Name="Under" Canvas.ZIndex="0" >
-                            <ContentPresenter ContentTemplate="{TemplateBinding BackTemplate}"/>
+                            <ContentPresenter Content="{Binding}" ContentTemplate="{TemplateBinding BackTemplate}"/>
                             <Grid.Projection>
                                 <PlaneProjection  CenterOfRotationZ="0.5" CenterOfRotationX="0.5" CenterOfRotationY="0.5"/>
                             </Grid.Projection>
                         </Grid>
                         <Grid x:Name="Over" Canvas.ZIndex="1" >
-                            <ContentPresenter ContentTemplate="{TemplateBinding FrontTemplate}"  />
+                            <ContentPresenter Content="{Binding}" ContentTemplate="{TemplateBinding FrontTemplate}"  />
                             <Grid.Projection>
                                 <PlaneProjection  CenterOfRotationZ="0.5" CenterOfRotationX="0.5" CenterOfRotationY="0.5"/>
                             </Grid.Projection>
