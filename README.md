@@ -5,7 +5,9 @@
 - Front template and back templates which you can define easily in xaml.
 
 ###Screenshots
-
+Front Template           |  Back Template
+:-------------------------:|:-------------------------:
+![](https://raw.githubusercontent.com/arashadm/wpflipping/master/Images/Flipp_2.jpg)  |  ![](https://raw.githubusercontent.com/arashadm/wpflipping/master/Images/Flipp_3.jpg)
 
 ###Target platforms
 - Windows Phone 8.X Silverlight.
