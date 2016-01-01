@@ -1,4 +1,4 @@
-# WP Flipping   
+# WP Flipping   [![NuGet Version](http://img.shields.io/nuget/v/wpflipping.svg?style=flat)](https://www.nuget.org/packages/wpflipping/) [![NuGet Downloads](https://img.shields.io/nuget/dt/wpflipping.svg?style=flat)](https://www.nuget.org/packages/wpflipping/)
 
 ###Features
 - Two sides control which flips across its center in both directions based on horizontal gesture.
