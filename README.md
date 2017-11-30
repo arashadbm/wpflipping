@@ -1,18 +1,18 @@
 # WP Flipping   [![NuGet Version](http://img.shields.io/nuget/v/wpflipping.svg?style=flat)](https://www.nuget.org/packages/wpflipping/) [![NuGet Downloads](https://img.shields.io/nuget/dt/wpflipping.svg?style=flat)](https://www.nuget.org/packages/wpflipping/)
 
-###Features
+### Features
 - Two sides control which flips across its center in both directions based on horizontal gesture.
 - Front template and back templates which you can define easily in xaml.
 
-###Screenshots
+### Screenshots
 Front Template           |  Back Template
 :-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/arashadm/wpflipping/master/Images/Flipp_2.jpg)  |  ![](https://raw.githubusercontent.com/arashadm/wpflipping/master/Images/Flipp_3.jpg)
 
-###Target platforms
+### Target platforms
 - Windows Phone 8.X Silverlight.
 
-###Usage
+### Usage
 - You can use install throught Nuget https://www.nuget.org/packages/wpflipping
 - Or Pull the source code and use WPFlipping library or copy the classes inside it.
 
@@ -45,13 +45,13 @@ Here is a snippet of usage of the control.
 ```
 
 
-###Sample
+### Sample
 Pull the source code and run the WPFlippingExample windows phone 8.0 example.
 
 The sample features a simple listbox, each listboxitem has a `DoubleSidesControl` with Front and Back templates.
 
-###Issues
+### Issues
 Please report any issue you find or contact if you have enhancements, fixes or ideas.
 
-###License
+### License
 Microsoft Public License (Ms-PL)
